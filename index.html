@@ -1,63 +1,70 @@
-export default function PortfolioWebsite() {
-  return (
-    <div className="bg-black text-white font-sans min-h-screen">
-      <nav className="flex justify-between items-center px-6 md:px-16 py-5 border-b border-slate-800 sticky top-0 bg-black z-50">
-        <h1 className="text-2xl font-bold text-cyan-400">Sudip</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudip Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans min-h-screen">
 
-        <div className="flex gap-4 text-sm md:text-base flex-wrap">
-          <a href="#home" className="hover:text-cyan-400">Home</a>
-          <a href="#about" className="hover:text-cyan-400">About</a>
-          <a href="#services" className="hover:text-cyan-400">Services</a>
-          <a href="#projects" className="hover:text-cyan-400">Projects</a>
-          <a href="#contact" className="hover:text-cyan-400">Contact</a>
-        </div>
-      </nav>
+  <nav class="flex justify-between items-center px-6 md:px-16 py-5 border-b border-slate-800 sticky top-0 bg-black z-50">
+    <h1 class="text-2xl font-bold text-cyan-400">Sudip</h1>
 
-      <section id="home" className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 gap-10">
-        <div className="max-w-2xl">
-          <p className="text-cyan-400 text-lg">WELCOME TO MY WEBSITE</p>
-
-          <h1 className="text-5xl md:text-7xl font-extrabold mt-4 leading-tight">
-            Hi, I'm <span className="text-cyan-400">Sudip Ghosh</span>
-          </h1>
-
-          <p className="mt-6 text-slate-300 text-lg leading-relaxed">
-            MIS Executive, Dashboard Designer, AppSheet Developer & Digital Creator.
-          </p>
-
-          <div className="flex gap-4 mt-8 flex-wrap">
-            <button className="bg-cyan-500 hover:bg-cyan-600 px-7 py-3 rounded-2xl font-semibold transition">
-              Hire Me
-            </button>
-
-            <button className="border border-cyan-400 px-7 py-3 rounded-2xl hover:bg-cyan-500/10 transition">
-              Download CV
-            </button>
-          </div>
-
-          <div className="flex gap-5 mt-10">
-            <a href="mailto:SUDIPGHOSH8797@GMAIL.COM" className="bg-slate-900 p-4 rounded-2xl border border-slate-700 hover:scale-110 transition">
-              <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" className="w-6 h-6" />
-            </a>
-
-            <a href="https://instagram.com/lifewithdip01" target="_blank" rel="noreferrer" className="bg-slate-900 p-4 rounded-2xl border border-slate-700 hover:scale-110 transition">
-              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" className="w-6 h-6" />
-            </a>
-
-            <a href="https://facebook.com/sudipghosh" target="_blank" rel="noreferrer" className="bg-slate-900 p-4 rounded-2xl border border-slate-700 hover:scale-110 transition">
-              <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" className="w-6 h-6" />
-            </a>
-          </div>
-        </div>
-
-        <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-cyan-400 shadow-2xl">
-          <img
-            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
-            alt="Sudip"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </section>
+    <div class="flex gap-4 text-sm md:text-base flex-wrap">
+      <a href="#home" class="hover:text-cyan-400">Home</a>
+      <a href="#about" class="hover:text-cyan-400">About</a>
+      <a href="#services" class="hover:text-cyan-400">Services</a>
+      <a href="#projects" class="hover:text-cyan-400">Projects</a>
+      <a href="#contact" class="hover:text-cyan-400">Contact</a>
     </div>
-  );
-}
+  </nav>
+
+  <section id="home" class="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 gap-10">
+    <div class="max-w-2xl">
+      <p class="text-cyan-400 text-lg">WELCOME TO MY WEBSITE</p>
+
+      <h1 class="text-5xl md:text-7xl font-extrabold mt-4 leading-tight">
+        Hi, I'm <span class="text-cyan-400">Sudip Ghosh</span>
+      </h1>
+
+      <p class="mt-6 text-slate-300 text-lg leading-relaxed">
+        MIS Executive, Dashboard Designer, AppSheet Developer & Digital Creator.
+      </p>
+
+      <div class="flex gap-4 mt-8 flex-wrap">
+        <button class="bg-cyan-500 hover:bg-cyan-600 px-7 py-3 rounded-2xl font-semibold transition">
+          Hire Me
+        </button>
+
+        <button class="border border-cyan-400 px-7 py-3 rounded-2xl hover:bg-cyan-500/10 transition">
+          Download CV
+        </button>
+      </div>
+
+      <div class="flex gap-5 mt-10">
+        <a href="mailto:SUDIPGHOSH8797@GMAIL.COM" class="bg-slate-900 p-4 rounded-2xl border border-slate-700 hover:scale-110 transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="w-6 h-6">
+        </a>
+
+        <a href="https://instagram.com/lifewithdip01" target="_blank" class="bg-slate-900 p-4 rounded-2xl border border-slate-700 hover:scale-110 transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="w-6 h-6">
+        </a>
+
+        <a href="https://facebook.com/sudipghosh" target="_blank" class="bg-slate-900 p-4 rounded-2xl border border-slate-700 hover:scale-110 transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="w-6 h-6">
+        </a>
+      </div>
+    </div>
+
+    <div class="w-80 h-80 rounded-full overflow-hidden border-4 border-cyan-400 shadow-2xl">
+      <img
+        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
+        alt="Sudip"
+        class="w-full h-full object-cover"
+      >
+    </div>
+  </section>
+
+</body>
+</html>
